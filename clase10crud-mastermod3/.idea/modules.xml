@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/clase10crud-mastermod.iml" filepath="$PROJECT_DIR$/.idea/clase10crud-mastermod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clase10crud-master/clase10crud.iml" filepath="$PROJECT_DIR$/clase10crud-master/clase10crud.iml" />
     </modules>
   </component>
 </project>
