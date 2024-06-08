@@ -6,7 +6,7 @@
 <jsp:useBean id="lista" scope="request" type="ArrayList<com.example.clase10crud.beans.Employees>" />
 <html>
 <head>
-    <title>Trabajos</title>
+    <title>Empleados</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
@@ -52,7 +52,7 @@
             </td>
             <td><%=employees.getJobId()%>
             </td>
-            <td><a class="btn btn-success" href="<%=request.getContextPath()%>home?action=edit&id=<%= employees.getEmployeeId() %>">Editar</a></td>
+            <td><a class="btn btn-success" href="<%=request.getContextPath()%>/home?action=edit&id=<%= employees.getEmployeeId() %>">Editar</a></td>
             <td><a onclick="return confirm('¿Esta seguro de borrar?')" class="btn btn-danger" href="<%=request.getContextPath()%>/home?action=del&id=<%= employees.getEmployeeId() %>">Borrar</a></td>
         </tr>
         <% } %>
